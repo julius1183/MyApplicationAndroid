@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UsuariosRolesActivity">
+
+    <ImageView
+        android:id="@+id/iv_bgestionar"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/boton_gestionar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="269dp"
+        android:layout_height="28dp"
+        android:text="Asignar permisos"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="718dp" />
+
+    <ImageView
+        android:id="@+id/iv_beliminar"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/eliminar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="597dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="269dp"
+        android:layout_height="28dp"
+        android:text="Eliminar usuario"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/menu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_software"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="248dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_usuarios_roles"
+        android:layout_width="138dp"
+        android:layout_height="182dp"
+        android:layout_marginEnd="148dp"
+        android:src="@drawable/usuarios_roles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_informes"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <ImageView
+        android:id="@+id/iv_bcrear"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/crear"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="309dp"
+        android:layout_height="27dp"
+        android:text="Crear usuario"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_beditar"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/editar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <TextView
+        android:id="@+id/editar"
+        android:layout_width="269dp"
+        android:layout_height="28dp"
+        android:text="Editar usuario"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <ImageView
+        android:id="@+id/iv_regresar"
+        android:layout_width="63dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/boton_regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CERRAR SESION"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

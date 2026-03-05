@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ControlStockActivity">
+
+    <ImageView
+        android:id="@+id/iv_bgestionar"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/boton_gestionar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="269dp"
+        android:layout_height="28dp"
+        android:text="Ajustes de stock"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="704dp" />
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/menu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_software"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="248dp" />
+
+    <ImageView
+        android:id="@+id/iv_control_stock"
+        android:layout_width="190dp"
+        android:layout_height="216dp"
+        android:layout_marginEnd="108dp"
+        android:src="@drawable/control_stock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_informes"
+        tools:layout_editor_absoluteY="266dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_bentrada"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/Boton_entrada"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="309dp"
+        android:layout_height="27dp"
+        android:text="Entrada de stock"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+
+    <ImageView
+        android:id="@+id/iv_bsalida"
+        android:layout_width="62dp"
+        android:layout_height="90dp"
+        android:src="@drawable/boton_salida"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+    <TextView
+        android:id="@+id/editar"
+        android:layout_width="269dp"
+        android:layout_height="28dp"
+        android:text="Salida de stock"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <ImageView
+        android:id="@+id/iv_regresar"
+        android:layout_width="85dp"
+        android:layout_height="112dp"
+        android:src="@drawable/boton_regresar"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CERRAR SESION"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
